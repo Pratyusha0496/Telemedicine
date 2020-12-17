@@ -9,7 +9,7 @@ import com.dunn.telemedicine.lib.excelLib;
 import com.dunn.telemedicine.pages.LoginPage;
 
 
-public class Login extends Baselib {
+public class PatientLoginwithProfileUpdation extends Baselib {
 	
 	@Test
 	public void login() throws InterruptedException
