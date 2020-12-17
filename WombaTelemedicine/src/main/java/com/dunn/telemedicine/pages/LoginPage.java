@@ -34,5 +34,6 @@ public void doLogin(String username, String password)
 	public String getLoginPage()
 	{
 		return driver.getTitle();
+		
 	}
 }

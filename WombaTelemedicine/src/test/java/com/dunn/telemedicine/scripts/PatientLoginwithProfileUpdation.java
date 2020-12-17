@@ -18,5 +18,7 @@ public class PatientLoginwithProfileUpdation extends Baselib {
 	String un = excelLib.getData("Sheet1",2,1,Iconstants.DataexcelPath);
 	String pw = excelLib.getData("Sheet1",2,2,Iconstants.DataexcelPath);
 		lp.doLogin(un, pw);
+	String Actualtitle = driver.getTitle();
+		System.out.println(Actualtitle);
 		}
 	}
