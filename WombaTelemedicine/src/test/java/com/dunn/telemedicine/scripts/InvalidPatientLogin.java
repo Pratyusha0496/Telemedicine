@@ -10,20 +10,21 @@ import com.dunn.telemedicine.lib.Baselib;
 import com.dunn.telemedicine.lib.excelLib;
 import com.dunn.telemedicine.pages.LoginPage;
 
-public class Loginwithoutemailverification  extends Baselib {
+public class InvalidPatientLogin extends Baselib {
 	
 	@Test
 	public void login() throws InterruptedException
 	{
 		LoginPage lp = new LoginPage(driver);
-		String un = excelLib.getData("Sheet1",4,1,Iconstants.DataexcelPath);
-		String pw = excelLib.getData("Sheet1",4,2,Iconstants.DataexcelPath);
+		String un = excelLib.getData("Sheet1",2,1,Iconstants.DataexcelPath);
+		String pw = excelLib.getData("Sheet1",4,1,Iconstants.DataexcelPath);
 		lp.doLogin(un, pw);
-		String Actualtitle = driver.getTitle();
+		WebElement invalid = driver.findElement(By.xpath("//div[@class=\"alert alert-danger\"]/span"));
+		String Actualtitle = invalid.getText();
+		driver.getTitle();
 		System.out.println("Title of Dashboard Page : " +Actualtitle);
-		String ExpectedTitle = excelLib.getData("Sheet1",2,1,Iconstants.Expectedoutput);
+		String ExpectedTitle = excelLib.getData("Sheet1",4,1,Iconstants.Expectedoutput);
 		Assert.assertEquals(Actualtitle, ExpectedTitle);
-		WebElement msg = driver.findElement(By.xpath("//div[contains(text(),'You are not verified yet. ')]"));
-		System.out.println("Message : " +msg.getText() );
 		}
-	}
+
+}
