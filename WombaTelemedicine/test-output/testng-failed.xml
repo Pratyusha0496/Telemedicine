@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dunn.telemedicine.scripts.Loginwithoutemailverification">
+      <class name="com.dunn.telemedicine.scripts.LoginWithEmailVerificationandwithoutprofileupdation">
         <methods>
+          <include name="login"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="login"/>
         </methods>
-      </class> <!-- com.dunn.telemedicine.scripts.Loginwithoutemailverification -->
+      </class> <!-- com.dunn.telemedicine.scripts.LoginWithEmailVerificationandwithoutprofileupdation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
