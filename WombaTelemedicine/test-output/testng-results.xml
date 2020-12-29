@@ -8,25 +8,28 @@
       <![CDATA[Application loaded ]]>
     </line>
     <line>
-      <![CDATA[Entered Textpratyushanp01@gmail.com In the Username TextBox]]>
+      <![CDATA[Entered Texttestpatient2020@gmail.com   In the Username TextBox]]>
     </line>
     <line>
-      <![CDATA[Entered Text45@#Prashu In the password TextBox]]>
+      <![CDATA[Entered TextPassword123@ In the password TextBox]]>
     </line>
     <line>
       <![CDATA[Clicked onLogin Btn]]>
     </line>
+    <line>
+      <![CDATA[Clicked onAppointment Btn]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-12-18T17:10:26 IST" name="Default suite" finished-at="2020-12-18T17:10:41 IST" duration-ms="14411">
+  <suite started-at="2020-12-29T12:07:11 IST" name="Default suite" finished-at="2020-12-29T12:07:29 IST" duration-ms="17845">
     <groups>
     </groups>
-    <test started-at="2020-12-18T17:10:26 IST" name="Default test" finished-at="2020-12-18T17:10:41 IST" duration-ms="14411">
-      <class name="com.dunn.telemedicine.scripts.LoginWithEmailVerificationandwithoutprofileupdation">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dunn.telemedicine.scripts.LoginWithEmailVerificationandwithoutprofileupdation@4386f16]" started-at="2020-12-18T17:10:26 IST" name="setUp" finished-at="2020-12-18T17:10:36 IST" duration-ms="9902" status="PASS">
+    <test started-at="2020-12-29T12:07:11 IST" name="Default test" finished-at="2020-12-29T12:07:29 IST" duration-ms="17845">
+      <class name="com.dunn.telemedicine.scripts.PatientViewsAppointment">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dunn.telemedicine.scripts.PatientViewsAppointment@4386f16]" started-at="2020-12-29T12:07:11 IST" name="setUp" finished-at="2020-12-29T12:07:23 IST" duration-ms="12146" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a10c1b5]]>
+                <![CDATA[org.testng.TestRunner@17ae7628]]>
               </value>
             </param>
           </params>
@@ -39,24 +42,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:com.dunn.telemedicine.scripts.LoginWithEmailVerificationandwithoutprofileupdation@4386f16]" started-at="2020-12-18T17:10:36 IST" name="login" finished-at="2020-12-18T17:10:41 IST" duration-ms="4480" status="PASS">
+        <test-method signature="viewsAppointment()[pri:0, instance:com.dunn.telemedicine.scripts.PatientViewsAppointment@4386f16]" started-at="2020-12-29T12:07:23 IST" name="viewsAppointment" finished-at="2020-12-29T12:07:29 IST" duration-ms="5663" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Entered Textpratyushanp01@gmail.com In the Username TextBox]]>
+              <![CDATA[Entered Texttestpatient2020@gmail.com   In the Username TextBox]]>
             </line>
             <line>
-              <![CDATA[Entered Text45@#Prashu In the password TextBox]]>
+              <![CDATA[Entered TextPassword123@ In the password TextBox]]>
             </line>
             <line>
               <![CDATA[Clicked onLogin Btn]]>
             </line>
+            <line>
+              <![CDATA[Clicked onAppointment Btn]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dunn.telemedicine.scripts.LoginWithEmailVerificationandwithoutprofileupdation@4386f16]" started-at="2020-12-18T17:10:41 IST" name="tearDown" finished-at="2020-12-18T17:10:41 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- viewsAppointment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dunn.telemedicine.scripts.PatientViewsAppointment@4386f16]" started-at="2020-12-29T12:07:29 IST" name="tearDown" finished-at="2020-12-29T12:07:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.dunn.telemedicine.scripts.LoginWithEmailVerificationandwithoutprofileupdation -->
+      </class> <!-- com.dunn.telemedicine.scripts.PatientViewsAppointment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
